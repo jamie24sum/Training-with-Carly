@@ -1,0 +1,56 @@
+
+[{
+
+}, {
+    "name": "explore-resorts-update",
+    "description": "False shows old version of explore resorts. True shows new version of explore resorts.",
+    "isActive": false
+}, {
+    "name": "prodType-for-club-pass-resort-determination",
+    "description": "Use prodType from content fragment instead of brand to determine if a resort is Club Pass for the search results page. HCWMP-4502.",
+    "isActive": true  
+}, {
+    "name": "progress-bar-update",
+    "description": "False shows old style of numbers for completed steps. True shows new checkmarks for completed steps",
+    "isActive": true
+}, {
+    "name": "recaptcha-on-review-page-feature",
+    "isActive": false
+}, {
+    "name": "booking-points-protection",
+    "description": "Ability to put the add points protection functionality and hide/show in the booking flow",
+    "isActive": true
+}, {
+    "name": "vip-privileges",
+    "description": "Hiding VIP Privileges code from the UI - PRIV-80",
+    "isActive": true
+}, {
+    "name": "restriction-of-points-protection-feature",
+    "description": "When enabled points protection is not applied to rented points and when disabled points protection applies as usual.",
+    "isActive": false
+}, {
+    "name": "modify-points-protection",
+    "description": "Hides modify points protection card when disabled",
+    "isActive": true
+}, {
+    "name": "points-calculator",
+    "description": "Allow users to access the points calculator/vaction planner.",
+    "isActive": true
+}, {
+    "name": "vip-upgrades",
+    "description": "VIP Upgrades ability to enable/disable for reservations modification",
+    "isActive": true
+}, {
+    "name": "club-rules-programming",
+    "description": "False (Disabled) shows old version of components without Contract Purchase Type. True (Enabled) shows new version of components with Contract Purchase Type.",
+    "isActive": false
+}, {
+    "name": "modify-add-nights-points-protection",
+    "description": "Ability to hide existing functionality points protection in the Add Nights flow - HCWMP-4230",
+    "isActive": true
+}, {
+    "name": "login-recaptcha",
+    "description": "When flag is enabled the captcha verification is visible and required upon login. When disabled captcha verification is not visible nor required for login.",
+    "isActive": false
+}]
+
