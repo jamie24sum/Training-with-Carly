@@ -1,6 +1,1 @@
-{
-    "baseUrl": "https://qa-clubwyndham.wyndhamdestinations.com",
-    "env": {
-      "apiUrl": "https://consumerapiqa.wvc.wyndhamdestinations.com/api"
-    }
-  }
+{}

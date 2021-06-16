@@ -27,11 +27,3 @@ Cypress.on('uncaught:exception', (err, runnable) => {
     return false
 })
 
-const { apiUrl } = Cypress.env();
-
-beforeEach(() => {
-    const apiUrl2 = new URL(apiUrl);
-    Cypress.env('hostname',apiUrl2.hostname)
-    window.sessionStorage.setItem('sessionDomain', apiUrl2.hostname);
-})
-
