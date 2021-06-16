@@ -16,5 +16,22 @@
 // Import commands.js using ES2015 syntax:
 import './commands'
 
+//import 'cypress-react-selector';
+
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
+
+// Turn off all uncaught exception handling
+Cypress.on('uncaught:exception', (err, runnable) => {
+    // returning false here prevents Cypress from failing the test
+    return false
+})
+
+const { apiUrl } = Cypress.env();
+
+beforeEach(() => {
+    const apiUrl2 = new URL(apiUrl);
+    Cypress.env('hostname',apiUrl2.hostname)
+    window.sessionStorage.setItem('sessionDomain', apiUrl2.hostname);
+})
+
